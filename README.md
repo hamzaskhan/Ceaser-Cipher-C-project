@@ -18,7 +18,7 @@ void pswmodule(); //line 352 //password reqired to sign in, something cooking in
 void frontpg();   // starts from line 35  //front page logo and costomer friendly impression
 void newacc();  // for new account generation
 void info();  // how encryption works
-void maime();  //mainmenu in between program for better nevigation for curious and exploring user
+void maime();  //mainmenu in between program for better nevigation for curious and exploring user.
 void binaryint();
 void linkfloat(); //suppreses warnings by engaging emulator
 void review();
