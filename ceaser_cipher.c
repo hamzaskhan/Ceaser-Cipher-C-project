@@ -1,3 +1,4 @@
+//password 0000 username 5555
 #include<stdio.h>
 #include<windows.h>
 #include<stdlib.h>
@@ -26,14 +27,14 @@ struct review
 {
 	int usrn;
 	float star;
-	char rev[400]
+	char rev[400];
 };
 
 struct complain
 {
 	int usr;
 	float stars;
-	char comp[400]
+	char comp[400];
 };
 
 
@@ -627,6 +628,7 @@ switch (c)
 		break;
 	case 3:
 		login();
+		break;
 	default:
 		maime();
 	}
@@ -738,20 +740,25 @@ void linkfloat()
 	a=*b;
 }
 
-void ADR_1()
-{
-	int enn;
-	system("cls");
-	printf("Keep using the free trial dear costomer. We will be back with more news soon.");
-	printf("\nTo go back to login, press 1.");
-	scanf("%d", &enn);
-	if (enn==1)
-	{
-		login();
-	}
-	else
-	{
-		system("cls");
-		emperor();
-	}
+
+//commenting 'void ADR_1' out because it is causing problems on devc++ ide however it works fine on visual studio code
+
+// void ADR_1()
+// {
+// 	int enn;
+// 	system("cls");
+// 	printf("Keep using the free trial dear costomer. We will be back with more news soon.");
+// 	printf("\nTo go back to login, press 1.");
+// 	scanf("%d", &enn);
+// 	if (enn==1)
+// 	{
+// 		login();
+// 	}
+// 	else
+// 	{
+// 		system("cls");
+// 		emperor();
+// 	}
+// }
+void emperor(){
 }
